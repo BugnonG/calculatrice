@@ -47,7 +47,7 @@ namespace Calculatrice
                         isOpIncorrect = true;
                         break;
                     case "+":
-                        dblRep = 0;
+                        dblRep = Outils.Addition(dblVal1, dblVal2);
                         break;
                     case "-":
                         dblRep = 0;
